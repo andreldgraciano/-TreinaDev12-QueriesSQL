@@ -1,0 +1,9 @@
+-- SQLite
+SELECT NAME AS 'NOME',
+       YEAR AS 'ANO'
+FROM CARS
+WHERE NAME = 'Fiat Cronos';
+
+UPDATE CARS
+SET YEAR = '2019'
+WHERE NAME = 'Fiat Cronos';
