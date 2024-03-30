@@ -1,0 +1,5 @@
+-- SQLite
+SELECT * FROM CARS;
+
+DELETE FROM CARS
+WHERE NAME = 'Hyundai HB20 1.6';
